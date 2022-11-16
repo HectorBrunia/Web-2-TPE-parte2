@@ -16,7 +16,7 @@ class PhoneModel {
             $query .= "ORDER BY $sort $order ";
         }
         if($page != null ){
-            $cant =10;
+            $cant =3;
             $begin = ($page-1)*$cant;
             $query .= "LIMIT $begin, $cant ";
         }
